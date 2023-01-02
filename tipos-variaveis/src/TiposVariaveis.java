@@ -1,5 +1,8 @@
-public class App {
+public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+
+        final int MINHA_IDADE = 26;
+
+        System.out.println("Hello, my name is Guilherme, and I'm " + MINHA_IDADE +" years old!");
     }
 }
